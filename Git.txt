@@ -1,0 +1,53 @@
+bPasso Git
+
+Salvar Coisas locais
+ - Git status
+ - Git add .
+ - Git commit -am 'descrição'
+ - git push origin 'nome do branch'
+
+Baixar coisas do servidor
+ - Git pull origin nome do branch
+ * se der conflito resolver através do Visual Studio
+   - View
+     - Team Explorer
+      - Casinha  
+      - Changes
+- Clicar no conflito
+- Resolver
+- Clicar em "Assept Merge"
+
+Fazer Merge e se der erro por não ter criado o arquivo "filho"
+- Clicar com botão direito no mouse "BusinessUI"
+ - Regenerate Feature Files
+
+Para Salvar as alterações realizadas através das resoluções de conflito do merge
+- git commit -am 'merge versao'
+- git push origin 'nome do branch'
+
+****************
+Quando apresentar algum problema no branch 
+
+git checkout desen
+
+git pull origin desenv
+
+git branch -d ddp_bus_projeto_177799 (deletar o branch)
+
+cria o branch novamente
+git branch -l ddp_bus_projeto_177799 (criação do branch novamente)
+
+
+********************
+- git status
+- git add .
+- Git commit -am 'descrição'
+- Git pull origin nome do branch
+- git push origin 'nome do branch'
+ 
+
+
+
+
+
+

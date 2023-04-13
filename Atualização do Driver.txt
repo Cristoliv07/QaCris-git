@@ -1,0 +1,55 @@
+/*****************************************************
+
+ATUALIZAR O DRIVER PRIMEIRA VEZ
+
+*****************************************************/
+
+ 
+
+#Vai para a pasta do driver
+
+cd .modules/Sage.br.TestFrameworkDeploy
+
+#Atualiza o driver
+
+git pull origin
+
+#Muda para o branch master
+
+git checkout master
+
+#Volta para o repositório principal
+
+cd ../..
+
+#Adiciona as alterações no git
+
+git add -A .
+
+#Confirma as modificações
+
+git commit -m '<Mensagem>'
+
+#Envia as alterações para o servidor
+
+git push origin <nome do branch>
+
+ 
+
+/*****************************************************
+
+BAIXAR A ATUALIZACAO
+
+*****************************************************/
+
+ 
+
+#Baixa as alterações do servidor
+
+git pull
+
+ 
+
+#Atualiza os submodulos
+
+git submodule update
